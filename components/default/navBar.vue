@@ -52,7 +52,7 @@ export default {
     const hamburger = document.getElementById('hamburger')
     const items=document.getElementById('items')
     hamburger.addEventListener('click', () => {
-      items.classList.toggle('')      
+      items.classList.toggle('displayed')      
     })
   },
 }
@@ -95,6 +95,9 @@ nav {
   display: none;
 }
 @media screen and (max-width: 800px) {
+  nav{
+    margin: 0 1em;
+  }
   .tabs {
     position: absolute;
     top: 5em;
@@ -106,6 +109,7 @@ nav {
     justify-content: center;
     justify-items: center;
     align-items: center;
+    
   }
   .hamburger {
     display: block;
@@ -118,12 +122,16 @@ nav {
   .tabs {
     display: flex;
     flex-direction: column;
+    margin-left: -100%;
+    padding-bottom: 10em;
+    transition: all 0.5s ease;
   }
   .tab {
     margin: 2em 0;
   }
   .displayed {
-    display: none;
+    margin-left: 0;
+    transition: all 0.5s ease;
   }
 }
 </style>

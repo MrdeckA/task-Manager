@@ -1,6 +1,6 @@
 <template>
   <div>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi placeat distinctio nam delectus reiciendis cupiditate officiis, a doloribus facilis quia, ipsa sapiente sequi molestias vel eveniet tenetur, fugit et ratione?
+    <div class="ed">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima quis quo eius. Ea, voluptatem corrupti similique vitae atque quos cumque! Voluptatum quas exercitationem vitae fugit debitis esse quae nulla mollitia!</div>
   </div>
 </template>
 
@@ -11,5 +11,9 @@ export default {
 </script>
 
 <style>
+.ed{
+  z-index: 0;
+}
+
 
 </style>

@@ -3,7 +3,7 @@
     <nav>
       <div class="heading">
         <svg
-          class=""
+          class="text-secondary"
           xmlns="http://www.w3.org/2000/svg"
           width="3em"
           height="2em"
@@ -64,6 +64,7 @@ nav {
   align-items: center;
   margin: 0 2em;
   height: 5em;
+  z-index: 1;
 }
 
 .heading {
